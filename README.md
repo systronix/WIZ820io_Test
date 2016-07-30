@@ -12,13 +12,17 @@ Hardware used
  - DHCP lease time (on my router) is set to 120 seconds, the minimum allowed by the Asus RT56NU router, and it appears to allow renewal at 1/2 that, or every 60 seconds. 
  - This enables 24 * 60, or 1440 DHCP renewals in 24 hrs vs a more typical one or two. This compresses one or two years of DHCP renewal into 24 hours.
  - Some issues are Arduino library issues I believe, but more on that later.
- - Totalphase Beagle SPI sniffer captures showing the effect of the ARP bug which affects DHCP 
+ - Totalphase Beagle SPI sniffer captures showing the effect of the ARP bug which affects DHCP. Not included in repo since they are too large (over 300MB Zipped). Ask if you'd like them.
+
 ## ILI9341_WIZ820_Test
  - use of Ethernet and the ILI9341 touchscreen at same time
  - moves the ILI9341 to alternate SPI pins
+
 ## EthernetKeypadLCD
  - the Arduino Ethernet Shield example adapted to the Teensy and WIZ820io hardware
+
 ## NtpTest
  - just as it sounds, to use Network Time Protocol, I have not done a lot with this yet
+
 ## DhcpAddressPrinter
  -- Example from Arduino, adapted to the Teensy and WIZ820io hardware
