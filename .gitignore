@@ -1,0 +1,5 @@
+#.gitignore
+# Ignore these files
+*.zip
+# Totalphase Beagle captures
+*.tdc
