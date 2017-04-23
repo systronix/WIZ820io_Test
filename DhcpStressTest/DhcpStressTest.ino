@@ -34,7 +34,8 @@
 
 
 #include <SPI.h>
-#include <Ethernet.h>
+// W550 needs Ethernet2 library
+#include <Ethernet2.h>
 #include <T3Mac.h>
 
 // Enter a MAC address for your controller below.

@@ -50,7 +50,7 @@ library (available on github).
 #include <XPT2046_Touchscreen.h>
 #include <SPI.h>
 
-#define CS_PIN  8
+#define CS_PIN  8   // resistive touch controller XPT2406 uses SPI
 
 #define TFT_CS 20    // 10 is default, different on ethernet/touch combo
 #define TFT_DC 21    // 9 is default, different on ethernet/touch combo

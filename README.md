@@ -1,5 +1,8 @@
-# WIZ820io Teensy3 Ethernet Test
-These all use Teensy 3.X as the controller.
+# WIZ820io Teensy3 Ethernet Test - Superceded
+ - This code is pretty much superceded by the [W5500 Test repo](https://github.com/systronix/W5500_Test)
+ - This code should still work but the WIZ820io is superceded by WIZ850io
+ - See W5500 repo for details: new PJRC TD lib supports both 820io and 850io
+ - No further work on this repo and its code is planned
 
 Hardware used
  - Teensy 3.X [Teensy 3.2](https://www.pjrc.com/store/teensy32.html)
