@@ -24,6 +24,11 @@ Hardware used
 ## ILI9341_WIZ820_Test
  - use of Ethernet and the ILI9341 touchscreen at same time
  - moves the ILI9341 to alternate SPI pins
+ - resets Ethernet and then ignores it, while testing the LCD and touchscreen
+ - the point is to show that Ethernet chip doesn't clash on the SPI lines.
+ - Tested with WIZ820io and WIZ850io, using Arduino.cc 1.8.11 and TD 1.35
+ - Binaries saved in the bin subfolder
+ - Copied to the W5500 repo for further work 2017 Apr 23. 
 
 ## EthernetKeypadLCD
  - the Arduino Ethernet Shield example adapted to the Teensy and WIZ820io hardware
